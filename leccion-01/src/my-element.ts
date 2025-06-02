@@ -60,6 +60,7 @@ export class MyElement extends LitElement {
       console.log("Contraseña LocalStorage:",passwordLocal);    
       if (username === usernameLocal && password === passwordLocal) {
         this.mensajeBienvenida = `¡Hola!, ingresaste las credenciales correctas`;
+        window.location.href = '/page-01.html'
       }else{
         this.mensajeBienvenida = `ingresaste las credenciales no son correctas`;
       }

@@ -28,9 +28,6 @@ body {
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
-  background-color:#eb3c3c;
-  justify-content: center;
-  
 }
 
 @media (prefers-color-scheme: light) {
